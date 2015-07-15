@@ -17,8 +17,6 @@ default:
       base_url: http://dev-updates-7.pantheon.io/
     Drupal\DrupalExtension:
       blackbox: ~
-      api_driver: 'drupal'
+      api_driver: 'drush'
       drush:
         alias: '@pantheon.updates-7.dev'
-      drupal:
-        drupal_root: './drupal'

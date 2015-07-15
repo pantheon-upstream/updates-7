@@ -3,6 +3,7 @@ Feature: Homepage
   As a website user
   I need to be able to see that the homepage is correct
 
+  @api
   Scenario: The homepage title
     Given I am on "/"
     Then I should see "Test Site"
