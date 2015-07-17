@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "bde4469e0b87f8782820410dec28ac1b",
+    "hash": "88164140825b47b7f46a6300d5f5be0c",
     "packages": [
         {
             "name": "cweagans/composer-patches",
@@ -261,12 +261,12 @@
             "description": "A flexible, recolorable theme with many regions and a responsive, mobile-first layout."
         },
         {
-            "name": "pantheon-systems/drops-7",
-            "version": "7.37",
+            "name": "pantheon-updates/drops-7",
+            "version": "7.38",
             "source": {
                 "type": "git",
-                "url": "https://github.com/pantheon-systems/drops-7.git",
-                "reference": "master"
+                "url": "git@github.com:pantheon-upstream/drops-7.git",
+                "reference": "update-7.38"
             },
             "replace": {
                 "drupal/aggregator": "self.version",
